@@ -17,7 +17,10 @@ const Navbar = () => {
         <span>
           <Link to="/about">About</Link>
         </span>
-        <span style={{ marginLeft: "auto", fontSize: "20px" }} className="login">
+        <span
+          style={{ marginLeft: "auto", fontSize: "20px" }}
+          className="login"
+        >
           <Link to="/login">Login</Link>
         </span>
       </div>
