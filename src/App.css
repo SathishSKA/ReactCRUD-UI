@@ -1,0 +1,154 @@
+.navbar {
+  background-color: #ffffff;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(110, 109, 109, 0.774);
+}
+.nav-link {
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width:574px) {
+  .nav-link{
+    gap:0px;
+  }
+  span{
+    font-size: 5px;
+  }
+  .about-section{
+    height: 100%;
+  }
+}
+span {
+  list-style-type: none;
+  font-size: 20px;
+}
+a {
+  color: #000;
+  padding: 7.5px;
+  text-decoration: none;
+  font-weight: 6px !important;
+}
+a:hover {
+  color: #ffffff;
+  background-color: black;
+  border-radius: 28px;
+}
+.section {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: url("michael-marsh.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.com-title {
+  font-size: 40px;
+  color: #ecebeb;
+  text-shadow: -4px 0 2px #505050;
+}
+.content {
+  color: rgba(112, 109, 109, 0.486);
+  font-size: 18px;
+  text-shadow: 2px 0 1px #ffffff;
+  font-weight: 5px;
+}
+.about-section {
+  background-image: url("https://images.all-free-download.com/images/graphicwebp/multicolored_light_effects_background_312637.webp");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+
+ 
+}
+.profile-card {
+  display: flex;
+  gap: 10px;
+}
+.profile {
+  width: 160px !important;
+  height: 170px;
+  padding: 10px;
+}
+.em-details{
+  padding: 10px;
+}
+.cards{
+  margin-top: 3vw;
+  display: flex;
+  gap:20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h6{
+  margin:14px;
+}
+.profile-button{
+  display: flex;
+  justify-content: space-around;
+}
+.about-img{
+  border-radius: 2px;
+  height: 160px;
+  width:280px;
+  object-fit: cover;
+}
+.about-card{
+  text-align: center;
+  margin-top: 4em;
+}
+.about-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+  justify-content: center;
+}
+.about-info{
+  text-align: justify;
+  padding: 6px;
+}
+.add-employee ,.edit-employee{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MuiTextField-root  {
+  width: 20em;
+}
+.add-content, .edit-content{
+  margin-top: 5em;
+}
+.login-container{
+  width:400px;
+  height: 440px;
+  background-color: rgb(164,183,218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-head{
+  text-align:center;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-button{
+  margin: 2.5em !important;
+  background-color: rgb(14, 14, 66) !important;
+  color: #ffffff !important;
+  border-radius: 25px !important;
+}
+.login-page{
+  display: flex;
+  justify-content: center;
+  padding: 4em;
+}
